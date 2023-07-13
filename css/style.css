@@ -1,0 +1,215 @@
+
+
+.image1{ 
+    width: 1400px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+} 
+
+   
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 5px 2px 2px;
+}
+
+
+li {
+    flex-direction: row;
+    display: inline-block;
+    width: 15;
+    position: relative;
+}
+
+
+a{
+    display: flex;
+
+    font-size: 14px;
+    text-align:center ;
+    display: block ;
+    color : black ;
+    padding: 8px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+
+.impact {
+    font-family: Impact, sans-serif;
+}
+ 
+.imageberlin-wall {
+
+    width:50px;
+    height: 50px;
+}
+
+.LogoBerlinPrincipal{
+    width:200px;
+    height: 210px;
+}
+
+    
+
+    
+   .navbarmenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+
+   }
+
+       
+
+    /* ¡¡¡¡¡ ACA EMPIEZA EL CSS DE TOURISM !!!! */
+
+    * { 
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: #ffffff;
+        font-family:Arial, Helvetica, sans-serif
+    }
+
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .contenedor {
+        max-width: 1000px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contenedor__cards {
+        margin: 70px 0 ;
+    }
+
+    .card {
+        background-color: rgb(206, 206, 206);
+        border-radius: 15 px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .card__thumbnail {
+        width: 650px;
+        height: 200px;
+        margin-right: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .card__img{ 
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+    }
+
+    .card__titulo{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+
+    .card__enlace {
+        color: #000;
+    }
+    .card__extracto {
+        line-height: 28px;
+        color:#6d6d6d;
+        margin-bottom: 20px;
+    }
+
+    /* ¡¡¡¡¡ ACA TERMINA EL CSS DE  TOURISM!!!!!!! */
+
+
+    /*¡¡¡¡ ACA EMPIEZA EL CSS DE LIVING IN BERLIN!!!!! */
+
+
+    .image__container{
+        display: flex;
+        border: hidden 5px;
+
+    }
+
+    .imagebox{
+    width: 600px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 3%;
+
+    }
+
+    .text__box{
+        flex: 1;
+    }
+
+    .title__box{
+        display:flex;
+        justify-content: center;
+        margin: 10px;
+
+    }
+ /* ¡¡¡¡¡¡¡ACA TERMINA EL CSS DE  LIVING IN BERLIN!!!!!!!! */
+
+
+
+
+/* ¡¡¡¡¡¡ACA EMPIEZA EL CSS DE HISTORY IN BERLIN !!!!!!1 */
+
+.image__history{
+    display: flex;
+    border: hidden 5px;
+    
+
+}
+
+.image__history__box{
+    width:600px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 1%;
+
+}
+
+.image__history1 {
+    display: flex;
+    border: hidden 5px;
+    flex-direction:row-reverse;
+
+}
+
+
+
+
+
+
+   
+ 
+
+
+
+    
+
+   
