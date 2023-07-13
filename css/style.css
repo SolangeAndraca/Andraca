@@ -3,8 +3,9 @@
 .image1{ 
     width: 1400px;
     position: relative;
-    left: 0px;
+    left: 20px;
     top: 0px;
+    bottom: 40px;
     z-index: 999;
     opacity: 1;
 } 
@@ -41,11 +42,6 @@ a{
 
 
 }
-
-
-.impact {
-    font-family: Impact, sans-serif;
-}
  
 .imageberlin-wall {
 
@@ -58,16 +54,6 @@ a{
     height: 210px;
 }
 
-    
-
-    
-   .navbarmenu{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: row;
-
-   }
 
        
 
@@ -174,11 +160,6 @@ a{
  /* ¡¡¡¡¡¡¡ACA TERMINA EL CSS DE  LIVING IN BERLIN!!!!!!!! */
 
 
- .navbar .navbar-expand-lg .navbar-light .bg-light{
-    position: relative;
-    bottom: 5px;
- }
-
 /* ¡¡¡¡¡¡ACA EMPIEZA EL CSS DE HISTORY IN BERLIN !!!!!!1 */
 
 .image__history{
@@ -207,12 +188,20 @@ a{
 }
 
 .title__box{
-    display: flex;
-    align-items: flex-start;
     margin: 4px;
 }
 
 
+/*TERMINA CSS DE HISTORY!!!!! */
+
+@media (min-width: 320px) {
+    .header__title {
+        
+    }
+
+}
+
     
+/*EMPIEZA CSS DE CONTACT!!!!1 */
 
    
