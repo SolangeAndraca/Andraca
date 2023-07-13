@@ -174,7 +174,10 @@ a{
  /* ¡¡¡¡¡¡¡ACA TERMINA EL CSS DE  LIVING IN BERLIN!!!!!!!! */
 
 
-
+ .navbar .navbar-expand-lg .navbar-light .bg-light{
+    position: relative;
+    bottom: 5px;
+ }
 
 /* ¡¡¡¡¡¡ACA EMPIEZA EL CSS DE HISTORY IN BERLIN !!!!!!1 */
 
@@ -197,20 +200,17 @@ a{
     display: flex;
     border: hidden 5px;
     flex-direction:row-reverse;
-
 }
 
-
-
-
-
-.labanda{
-    
-    display: flex
+.text__box{
+  margin: 10px;
 }
-   
- 
 
+.title__box{
+    display: flex;
+    align-items: flex-start;
+    margin: 4px;
+}
 
 
     
