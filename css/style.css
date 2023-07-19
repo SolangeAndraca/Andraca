@@ -44,7 +44,7 @@ a{
     height: 50px;
 }
 
-.LogoBerlinPrincipal{
+.LogoBerlinPrincipal{ 
     width:200px;
     height: 210px;
 }
@@ -86,9 +86,11 @@ a{
         border-radius: 15 px;
         padding: 20px;
         display: flex;
-        align-items: center;
+        flex-direction: row;
+        align-items:center;
         position: relative;
         margin-bottom: 50px;
+        
     }
 
     .card__thumbnail {
@@ -98,9 +100,11 @@ a{
         border-radius: 10px;
         overflow: hidden;
         display: inline-block;
+    
     }
 
-    .card__img{ 
+    .card__img { 
+       
         width: 300px;
         height: 200px;
         border-radius: 15px;
@@ -120,6 +124,12 @@ a{
         line-height: 28px;
         color:#6d6d6d;
         margin-bottom: 20px;
+    }
+
+
+    .card__title{
+        display:flex;
+        justify-content:center;
     }
 
     /* ¡¡¡¡¡ ACA TERMINA EL CSS DE  TOURISM!!!!!!! */
