@@ -5,15 +5,11 @@
    
 } 
 
-   
-
-
 .flex{
     display: flex;
     flex-direction: row;
     padding: 2px 5px 2px 2px;
 }
-
 
 li {
     flex-direction: row;
@@ -21,7 +17,6 @@ li {
     width: 15;
     position: relative;
 }
-
 
 a{
     display: flex;
@@ -44,9 +39,8 @@ a{
     height: 50px;
 }
 
-.LogoBerlinPrincipal{ 
-    width:200px;
-    height: 210px;
+.LogoBerlinPrincipal{
+   
 }
 
 
@@ -199,14 +193,40 @@ a{
 
 /*TERMINA CSS DE HISTORY!!!!! */
 
-@media (min-width: 320px) {
-    .header__title {
-        
-    }
+
+
+    
+/* FIX HEADER */
+
+.header__title {
 
 }
 
+
+.navbar-brand{
+    display:flex;
+    align-items:baseline;
+    width:200px;
+    height:110px;
+    border:hidden;
     
-/*EMPIEZA CSS DE CONTACT!!!!1 */
+  
+   
+}
+
+.collapse{
+    display:flex;
+    justify-content: flex-start ;
+
+    
+}
+
+.navbar-expand-lg {
+    height: 150px;
+    width: 100%;
+    display:flex;
+    align-items: flex-end;
+   
+}
 
    
