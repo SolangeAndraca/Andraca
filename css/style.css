@@ -129,8 +129,7 @@ a{
     .list__card{
         display:flex;
         flex-direction:column;
-        justify-content:flex-start;
-
+        
 
     }
 
@@ -156,7 +155,7 @@ a{
     }
 
     .text__box{
-       border:hidden 15px;
+       border: hidden 15px;
        margin-left: 0px;
     
     }
@@ -209,9 +208,7 @@ a{
     
 /* FIX HEADER */
 
-.header__title {
 
-}
 
 
 .navbar-brand{
@@ -220,8 +217,6 @@ a{
     width:200px;
     height:110px;
     border:hidden;
-    
-  
    
 }
 
@@ -261,27 +256,152 @@ a{
 
    }
 
-   /* MEDIA QUERIES */
+   /* ACA EMPIEZA MEDIA QUERIES  PARA TODAS LAS PAGINAS!!!!!!*/
+
+   /* Media queries tourism */
 
 
-   @media screen and  (max-width: 992px) {
-    .body {
-        background: blue;
-        width:25%;
-    }
-   }
+   @media screen and (max-width: 760px) {
+        .card {
+            flex-direction: column; 
+            align-items: center; } 
+          
+        
+        .card__thumbnail {
+            width: 100%; 
+            max-width: 650px;
+            margin-right: 0; 
+            margin-bottom: 20px; }
+          
+        
+        .card__img { 
+            width: 100%; 
+        }
+        
+        .card__titulo{
+            font-size: 24px; 
+            margin-bottom: 10px; 
+            text-align: center; 
+        }
+        
+        .card__enlace {
+            text-align: center; 
+        }
+        
+        .card__extracto {
+            line-height: 24px; 
+            text-align: center; 
+        }
 
-   @media screen and (max-width: 992px) {
-    .img { width: 25%;
 
-    }
+        @media (min-width: 1524px) {
+            .contenedor {
+                width: 80%; /* Adjust the width for larger screens */
+            }
+        
+            .card {
+                flex-direction: row;
+                justify-content: space-between; /* Spread cards horizontally */
+                align-items: center;
+            }
+        
+            .card__thumbnail {
+                width: 650px;
+                margin-right: 20px;
+            }
+        
+            .card__titulo{
+                font-size: 36px; /* Increase the font size for desktop */
+            }
+        
+            .card__extracto {
+                line-height: 32px; /* Increase line-height for desktop */
+            }
+        }
 
-   }
+        /*Media Queries Living*/
 
-   img{
-  min-width: 
-   } 
+        @media (max-width: 760px) {
+            .title__box {
+                font-size: 20px; /* Further reduce the font size for smaller screens */
+            }
 
+        .image__container {
+            flex-direction: column; /* Change to 'column' for mobile responsiveness */
+            align-items: center; /* Center the elements horizontally */
+            margin: 15px;
+            border: hidden 5px; /* Remove 'hidden' from 'border' property */
+        }
+        
+        .imagebox {
+            width: 100%; /* Adjusted width to 100% for better responsiveness */
+            height: auto; /* Adjusted height to 'auto' for mobile */
+            max-width: 600px;} /* Added max-width for larger screens */
+         
+        
+        .text__box {
+            margin: 5px; /* Adjusted margin for spacing */
+            border: hidden 15px; /* Remove 'hidden' from 'border' property */
+            padding: 5px; /* Add padding for better spacing */
+        }
+        
+        .title__box {
     
+            margin: 30px; /* Adjusted margin for spacing */
+            font-size: 24px; /* Adjusted font size for mobile */
+            text-align: center; /* Center the title text for mobile */
+        }
+
+    }    
 
 
+@media (min-width: 1524px) {
+    .image__container {
+      justify-content: center; /* Center the .image__container on larger screens */
+    }
+      
+    .imagebox {
+        width: 100%; /* Use the full width available */
+        max-width: 600px; /* Limit the maximum width to 600px */
+        height: auto; /* Allow the height to adjust proportionally */
+        margin: 5px;
+        border-radius: 3%;}
+
+    .text__box{
+            justify-content: center;}
+        }
+  }
+
+  /*Media queries History*/
+
+  @media (max-width: 759px) {
+    .image__history {
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .image__history__box {
+      max-width: 100%; /* Occupy the full width available for smaller screens */
+    }
+  
+    .text__box,
+    .title__box {
+      margin: 5px; /* Adjust margins for better spacing on mobile devices */
+    }
+  }
+
+
+  @media (max-width: 1524px) {
+    .image__history {
+      flex-direction: row-reverse; /* Reverse the direction for desktop screens */
+    }
+  
+    .text__box,
+    .title__box {
+      margin: 8px; /* Adjust margins for better spacing on desktop devices */
+    }
+  }
+  
+
+
+
+  
