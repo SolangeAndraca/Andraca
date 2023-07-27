@@ -1,0 +1,325 @@
+@charset "UTF-8";
+.image1 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 2px 5px 2px 2px;
+}
+
+li {
+  flex-direction: row;
+  display: inline-block;
+  width: 15;
+  position: relative;
+}
+
+a {
+  display: flex;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  color: black;
+  padding: 8px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.imageberlin-wall {
+  width: 50px;
+  height: 50px;
+}
+
+/* ¡¡¡¡¡ ACA EMPIEZA EL CSS DE TOURISM !!!! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(206, 206, 206);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contenedor__cards {
+  margin: 70px 0;
+}
+
+.card {
+  background-color: rgb(206, 206, 206);
+  border-radius: 15 px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card__thumbnail {
+  width: 650px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card__img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.card__titulo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.card__enlace {
+  color: black;
+}
+
+.card__extracto {
+  line-height: 28px;
+  color: #6d6d6d;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  display: flex;
+  justify-content: center;
+}
+
+.list__card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ¡¡¡¡¡ ACA TERMINA EL CSS DE  TOURISM!!!!!!! */
+/*¡¡¡¡ ACA EMPIEZA EL CSS DE LIVING IN BERLIN!!!!! */
+.image__container {
+  display: flex;
+  border: hidden 5px;
+  margin: 15px;
+}
+
+.imagebox {
+  width: 600px;
+  height: 350px;
+  margin: 5px;
+  border-radius: 3%;
+}
+
+.text__box {
+  border: hidden 15px;
+  margin-left: 0px;
+}
+
+.title__box {
+  display: flex;
+  justify-content: center;
+  border: 30px;
+}
+
+/* ¡¡¡¡¡¡¡ACA TERMINA EL CSS DE  LIVING IN BERLIN!!!!!!!! */
+/* ¡¡¡¡¡¡ACA EMPIEZA EL CSS DE HISTORY IN BERLIN !!!!!!1 */
+.image__history {
+  display: flex;
+  border: hidden 5px;
+}
+
+.image__history__box {
+  width: 600px;
+  height: 350px;
+  margin: 5px;
+  border-radius: 1%;
+}
+
+.image__history1 {
+  display: flex;
+  border: hidden 5px;
+  flex-direction: row-reverse;
+}
+
+.text__box {
+  margin: 10px;
+}
+
+.title__box {
+  margin: 4px;
+}
+
+/*TERMINA CSS DE HISTORY!!!!! */
+/* FIX HEADER */
+.navbar-brand {
+  display: flex;
+  align-items: baseline;
+  width: 200px;
+  height: 110px;
+  border: hidden;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar-expand-lg {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* CONTACT FORM!! */
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+}
+
+/* ACA EMPIEZA MEDIA QUERIES  PARA TODAS LAS PAGINAS!!!!!!*/
+/* Media queries tourism */
+@media screen and (max-width: 760px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card__thumbnail {
+    width: 100%;
+    max-width: 650px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .card__img {
+    width: 100%;
+  }
+  .card__titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .card__enlace {
+    text-align: center;
+  }
+  .card__extracto {
+    line-height: 24px;
+    text-align: center;
+  }
+  /*Media Queries Living*/
+}
+@media screen and (max-width: 760px) and (min-width: 1524px) {
+  .contenedor {
+    width: 80%;
+  }
+  .card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card__thumbnail {
+    width: 650px;
+    margin-right: 20px;
+  }
+  .card__titulo {
+    font-size: 36px;
+  }
+  .card__extracto {
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 760px) and (max-width: 760px) {
+  .title__box {
+    font-size: 20px;
+  }
+  .image__container {
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    border: hidden 5px;
+  }
+  .imagebox {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+  }
+  .text__box {
+    margin: 5px;
+    border: hidden 15px;
+    padding: 5px;
+  }
+  .title__box {
+    margin: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 760px) and (min-width: 1524px) {
+  .image__container {
+    justify-content: center;
+  }
+  .imagebox {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 5px;
+    border-radius: 3%;
+  }
+  .text__box {
+    justify-content: center;
+  }
+}
+/*Media queries History*/
+@media (max-width: 759px) {
+  .image__history {
+    flex-direction: column;
+  }
+  .image__history__box {
+    max-width: 100%;
+  }
+  .text__box,
+  .title__box {
+    margin: 5px;
+  }
+}
+@media (max-width: 1524px) {
+  .image__history {
+    flex-direction: row-reverse;
+  }
+  .text__box,
+  .title__box {
+    margin: 8px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
